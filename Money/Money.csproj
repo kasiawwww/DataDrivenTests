@@ -6,11 +6,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A814669-D9B7-430E-B1B0-3754D02A598E}</ProjectGuid>
+    <ProjectGuid>{F1859D82-D8DE-4938-B74E-7C4F1CEA3012}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataDrivenTests</RootNamespace>
-    <AssemblyName>DataDrivenTests</AssemblyName>
+    <RootNamespace>Money</RootNamespace>
+    <AssemblyName>Money</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -48,8 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataDrivenTestFixture.cs" />
-    <Compile Include="GenericTestFixture.cs" />
+    <Compile Include="Money.cs" />
+    <Compile Include="IMoney.cs" />
+    <Compile Include="MoneyBag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
